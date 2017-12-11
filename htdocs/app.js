@@ -27,7 +27,6 @@ class AppData {
     @action
     updateRates (response) {
         this.rates = response.jpy || {};
-        console.log(this.rates);
     }
 }
 
